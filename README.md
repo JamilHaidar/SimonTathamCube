@@ -1,5 +1,10 @@
 # SimonTathamCube
-Implementation of the Cube game from Simon Tatham's Puzzles with an optimal solution search in Python.
+Implementation of the Cube game from Simon Tatham's Puzzles with an optimal solution search in Python. A standalone executable can be downloaded and run to try out the game.
+
+Controls:
+Arrow keys to move cube
+N to start new game
+S to solve puzzle
 
 The game being explored can be found [here](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/cube.html).
 I have been able to find strategies and algorithms for all puzzles in this game (even NP hard ones, I just iterate through possible states in a greedy/pruning way). 
