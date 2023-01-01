@@ -1,5 +1,5 @@
 # SimonTathamCube
-Implementation of the Cube game from Simon Tatham's Puzzles with an optimal solution search in Python. A standalone executable can be downloaded and run to try out the game [(link)](https://github.com/JamilHaidar/SimonTathamCube/raw/main/main.exe).
+Implementation of the Cube game from Simon Tatham's Puzzles with an optimal solution search in Python. A standalone executable can be downloaded and run to try out the game [(link)](https://github.com/JamilHaidar/SimonTathamCube/raw/main/cube.exe).
 
 Controls:
 - Arrow keys to move cube
