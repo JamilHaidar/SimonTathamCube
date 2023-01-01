@@ -7,6 +7,7 @@ from math import *
 from tkinter import *
 from tkinter import messagebox
 import win32gui
+import sys
 
 def front(win_name,windows):
     for i in windows:
@@ -322,11 +323,11 @@ class GameController:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
-                exit()
+                sys.exit(0)
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     pygame.quit()
-                    exit()
+                    sys.exit(0)
                 if event.key == pygame.K_n:
                     return True
                 if self.solve_mode:
